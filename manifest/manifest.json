@@ -1,0 +1,16 @@
+{
+   "manifest_version": 3,
+   "name": "Hello",
+   "version": "0.1.0",
+   "content_scripts": [
+       {
+           "matches": [ "https://gymn4.schools.by/*" ],
+           "js": [ "script.js" ]
+           
+       }
+   ],
+   "permissions":[
+    "storage"
+   ]
+   
+}
