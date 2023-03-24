@@ -47,6 +47,4 @@ function f(){
         el[0].tBodies[0].append(element)
         clearInterval(t)
     }
-
-    console.log(document.)
 }
